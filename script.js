@@ -203,9 +203,6 @@ function mostrarImagem() {
     lightboxImg.src = imagens[indexAtual].src;
 }
 
-// ===== FECHAR BOTÃO =====
-fechar.addEventListener("click", fecharLightbox);
-
 // ===== FECHAR CLICANDO FORA =====
 lightbox.addEventListener("click", (e) => {
     if (e.target === lightbox) {
